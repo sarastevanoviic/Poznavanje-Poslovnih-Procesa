@@ -1,0 +1,51 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.jpeg,
+  Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Image1: TImage;
+    edtUsername: TLabel;
+    edtLozinka: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button1: TButton;
+    lblStatus: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+const
+  KORISNICKO_IME = 'admin';
+  LOZINKA = '1234';
+begin
+  if (edtUsername.Text = KORISNICKO_IME) and (edtLozinka.Text = LOZINKA) then
+  begin
+    lblStatus.Caption := 'Uspešna prijava!';
+    lblStatus.Font.Color := clGreen;
+    // POSLE DA SE URADI OTVARANJE DRUGE FORME
+  end
+  else
+  begin
+    lblStatus.Caption := 'Pogrešno korisni?ko ime ili lozinka.';
+    lblStatus.Font.Color := clRed;
+
+end;
+
+end;

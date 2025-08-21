@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/07/03 16:35:01.000.776,=C:\Users\LENOVO\OneDrive\Radna površina\PIS\Unit1.pas</Transaction>
+    <Transaction>2025/07/04 11:02:25.000.298,=C:\Users\LENOVO\OneDrive\Radna površina\PIS\Unit1.pas</Transaction>
+    <Transaction>2025/07/04 12:05:54.000.405,C:\Users\LENOVO\OneDrive\Radna površina\PIS\DelphiProjekat\Unit1.dfm=C:\Users\LENOVO\OneDrive\Radna površina\PIS\Unit1.dfm</Transaction>
+    <Transaction>2025/07/04 12:05:54.000.405,C:\Users\LENOVO\OneDrive\Radna površina\PIS\DelphiProjekat\Unit1.pas=C:\Users\LENOVO\OneDrive\Radna površina\PIS\Unit1.pas</Transaction>
+    <Transaction>2025/07/04 12:06:22.000.624,C:\Users\LENOVO\OneDrive\Radna površina\PIS\DelphiProjekat\AppZaProslave.dproj=C:\Users\LENOVO\OneDrive\Radna površina\PIS\Project1.dproj</Transaction>
+    <Transaction>2025/07/04 20:17:32.000.229,=C:\Users\LENOVO\OneDrive\Radna površina\PIS\DelphiProjekat\Unit2.pas</Transaction>
+    <Transaction>2025/07/05 17:42:14.000.405,=C:\Users\LENOVO\OneDrive\Radna površina\PIS\DelphiProjekat\Unit3.pas</Transaction>
+    <Transaction>2025/07/06 09:58:06.000.066,=C:\Users\LENOVO\OneDrive\Radna površina\PIS\DelphiProjekat\Unit4.pas</Transaction>
+    <Transaction>2025/08/19 15:19:53.000.362,=C:\Users\LENOVO\OneDrive\Radna površina\PPP\DelphiProjekat\Unit5.pas</Transaction>
+    <Transaction>2025/08/19 15:21:36.000.921,=C:\Users\LENOVO\OneDrive\Radna površina\PPP\DelphiProjekat\Unit6.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="Unit5.pas"/>
+    <File Path="Unit5.dfm"/>
+    <File Path="Unit6.pas"/>
+    <File Path="Unit6.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
